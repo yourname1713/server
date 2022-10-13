@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+    min-width: 1500px
+}
+
+.el-breadcrumb {
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+
+.el-breadcrumb__inner {
+    color: blue !important;
+}
+
+.el-table {
+    margin-top: 2%;
+}
+
+.el-pagination {
+    margin-top: 2%;
+}
+
+.el-cascader-panel {
+    max-height: 350px;
+}
+
+strong:hover {
+    color: red;
+}
+
+.el-scrollbar__wrap {
+    overflow: auto !important;
+    height: 100%;
+}
+
+.ql-editor {
+    height: 300px;
+}
+
+.el-carousel__arrow {
+    background-color: skyblue !important
+}
+.el-carousel__button{
+    height: 6px;
+    width: 36px;
+    background-color: blue !important
+}
