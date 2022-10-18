@@ -16,7 +16,7 @@ jQuery(document).ready(function ($) {
             'font-size': '20px'
         })
         function randomColor() {
-            return 'rgb(' + ~~(Math.random() * 255) + ',' + ~~(Math.random() * 255) + ',' + ~~(Math.random() * 255) + ')'
+            return 'rgb(' + ~~(Math.floor(Math.random() * 256)) + ',' + ~~(Math.floor(Math.random() * 256)) + ',' + ~~(Math.floor(Math.random() * 256)) + ')'
         }
         $('body').append($i)
         $i.animate(
